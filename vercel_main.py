@@ -80,9 +80,10 @@ def handle_message(event):
         print(f"Error handling message: {e}")
 
 # Vercel 入口點
-def handler(request):
+def vercel_handler(request):
     """Vercel 入口點"""
     return app(request.environ, lambda *args: None)
-
+    
 if __name__ == '__main__':
     app.run(debug=True)
+
