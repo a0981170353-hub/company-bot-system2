@@ -17,3 +17,9 @@
     "LINE_CHANNEL_SECRET": "d1f20017059ab6c3159b1b3cbc6b858b"
   }
 }
+
+"functions": {
+  "vercel_main.py": {
+    "runtime": "python3.9"
+  }
+}
