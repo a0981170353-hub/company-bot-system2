@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "vercel_main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "vercel_main.py"
+    }
+  ],
+  "env": {
+    "LINE_CHANNEL_ACCESS_TOKEN": "XqrnJn9Rq0jZjJL89NClUM6f/F8cQ4nSqvD39JOJmQrtYO3xNbpmv2wiov1k+cjjnLHezPxkvqFbwIY1kFFlGt4yj49yvtbkty+I70bLMgjgQLz2uio74uR+z4+j5rOXoN2Vbs3h3CIHQRzPC8QJuQdB04t89/1O/w1cDnyilFU=",
+    "LINE_CHANNEL_SECRET": "d1f20017059ab6c3159b1b3cbc6b858b"
+  }
+}
